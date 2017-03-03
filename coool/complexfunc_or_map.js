@@ -8,7 +8,7 @@ var double = function(x) {
 
 // map is cool function that accepts 2 arguments:
 //  func    the function to call
-//  list    a array of values to call func on
+//  list    an array of values to call func on
 var map = function(func, list) {
     var output=[];              // output list
     for(idx in list) {
