@@ -1,7 +1,6 @@
 /*<!DOCTYPE html>
 <html>
 <body onmouseover="myFunction()">
-
 <p>Compute : <label style="color:red;"><b>x+y=z</b></label></p>
 <form>
 x:<input type="text" id="x" value="0"onmouseout="myFunction()">
@@ -12,7 +11,7 @@ y:<input type="text" id="y" value="0"onmouseout="myFunction()">
 */
 <script>
 function myFunction() {
-	var x,y;
+    var x,y;
     var add=function(x,y){return x+y;}
     x=parseFloat(document.getElementById("x").value,0);
     y=parseFloat(document.getElementById("y").value,0);
