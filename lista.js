@@ -12,7 +12,7 @@ var x=parseInt(prompt("Enter your no. of siblings"),10)-1;
 var child=Array(x);
 for(i=0;i<=x;i++)
 {
-	child[i]=Object.create(person);   //object
+    child[i]=Object.create(person);   //object
     child[i].Name=prompt("Name of sibling no"+(i+1)+" is ");
     child[i].age=prompt("Age of sibling no"+(i+1)+" is ");
     child[i].sum=child[i].Name+"-"+"<span style='color:red;'>"+child[i].age+"yr(s)</span><br/>";
