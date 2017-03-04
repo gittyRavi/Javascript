@@ -15,7 +15,7 @@ function myFunction() {
     var add=function(x,y){return x+y;}
     x=parseFloat(document.getElementById("x").value,0);
     y=parseFloat(document.getElementById("y").value,0);
-	var z=add(x,y);
+    var z=add(x,y);
     var s=[x," "+y," "+z];
     document.getElementById("demo").innerHTML ="(x, y, z) : "+"("+s+")";
     document.getElementById("z").innerHTML =z;
