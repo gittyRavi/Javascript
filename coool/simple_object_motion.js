@@ -26,11 +26,11 @@
 				  break;
 			  // Right Arrow Pressed
 			  case 39:
-				  $('img').animate({left: "+=10px"}, 'fast');// Put our code here
+				$('img').animate({left: "+=10px"}, 'fast');// Put our code here
 				  break;
 			  // Down Arrow Pressed
 			  case 40:
-				  $('img').animate({top: "+=10px"}, 'fast');// Put our code here
+				$('img').animate({top: "+=10px"}, 'fast');// Put our code here
 				  break;
 		  }
 	  });
